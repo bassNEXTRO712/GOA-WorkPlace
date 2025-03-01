@@ -1,0 +1,11 @@
+table{
+    border-collapse: collapse;
+    width: 30%;
+}
+th{
+    background-color: black;
+    color: whitesmoke;
+}
+tr:nth-child(odd){
+    background-color: gray;
+}

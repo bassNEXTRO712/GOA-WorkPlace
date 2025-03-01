@@ -1,0 +1,35 @@
+img{
+    width: 450px;
+    float: left;
+    
+    
+}
+h1,h2{
+    text-align: center;
+}
+p{
+    background-color: aqua;
+}
+#img1{
+    width: 350px;
+    float: right;
+}
+section{
+    background-color: rgba(25, 53, 214, 0.986);
+}
+#img2{
+    width: 450px;
+    float: left;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: red;
+}
+#img3{
+    width: 500px;
+    float: right;
+}
+h4,h5,h6{
+    display: inline;
+    background-color: lime;
+}

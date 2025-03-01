@@ -1,0 +1,28 @@
+body{
+    background-image: url(Pictures/balls-14-min.jpg);
+
+}
+#img1{
+    width: 150px;
+    float: left;
+}
+p{
+    display: inline;
+    font-weight: 900;
+    color: #FF7D7D;
+}
+#img2{
+    width: 200px;
+    float: right;
+}
+h1,h2,h3,h4{
+    text-align: center;
+    color: lime;
+    background-color: black;
+    display: inline-block;
+}
+#img3{
+    width: 200px;
+    float: left;
+    
+}

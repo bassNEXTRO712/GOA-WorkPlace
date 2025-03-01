@@ -1,0 +1,16 @@
+.list1{
+    text-align: center;
+}
+.list2{
+    color: red;
+    list-style-position: inside;
+    text-align: center;
+}
+li:hover{
+    color: rgb(151, 8, 218);
+    
+}
+#es:hover{
+    background-color: black;
+    
+}

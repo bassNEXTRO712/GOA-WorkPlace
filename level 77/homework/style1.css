@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+.parent{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    transition: 0.3s;
+    
+}
+.child{
+    
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    justify-items: center;
+    justify-content: center;
+    border: 1px solid;
+    margin-top: 10px;
+    background-color: white;
+    position: absolute;
+    
+    
+}
+
+    
+
+
+.parent:hover{
+    background-color: yellowgreen;
+    animation-name: jackpot;
+    animation-delay: 1;
+    animation-duration: 5s;
+    transition: 0.3s;
+    animation-iteration-count: 10;
+    
+    
+    
+    
+}
+
+
+@keyframes jackpot{
+    0%{
+        transform: rotate(10deg);
+        background-color: yellow;
+        width: 0%;
+    }
+    30%{
+        background-color: orange;
+        width: 30%;
+    }
+    60%{
+        background-color: orangered;
+        width: 60%;
+    }
+    100%{
+        transform: rotate(360deg);
+        background-color: red;
+        width: 100%;
+    }
+}

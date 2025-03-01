@@ -1,0 +1,11 @@
+#p1{
+    text-decoration: underline dotted red;
+    color: rgb(168, 224, 13);
+}
+#p2{
+    text-decoration: line-through dashed rgb(0, 252, 252);
+}
+#p3{
+    text-decoration: overline solid orange;
+    color: blue;
+}

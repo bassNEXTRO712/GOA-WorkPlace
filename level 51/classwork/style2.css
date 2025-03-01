@@ -1,0 +1,15 @@
+ol{
+    list-style: lower-alpha;
+    display: inline-block;
+    background-color: deepskyblue;
+    color: red;
+    
+
+}
+ul{
+    list-style-position: inside;
+    list-style: upper-roman;
+    display: inline-block;
+    background-color: pink;
+    color: orangered;
+}

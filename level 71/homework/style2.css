@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    display: flex;
+    font-family: "Red Hat Display", serif;
+    flex-direction: column;
+    
+}
+
+header{
+    background-image: url(./images2/bg-hero-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    background-color: #edfbfe;
+    font-size: 20px;
+    flex-direction: column;
+    
+    
+    
+
+}
+#button1{
+    margin-left: 1200px;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    margin-top: -30px;
+    border: 2px solid #e0e0e0; 
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+
+}
+#mockups{
+    width: 700px;
+    margin-left: 680px;
+    margin-top: -350px;
+}
+#logo{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#button2{
+    background-color: #fe52c0;
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+}
+.texts{
+    position: relative;
+    left: 50px;
+    margin-top: 100px;
+}
+
+
+main{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.parent1,.parent2,.parent3{
+    margin-top: 50px;
+    width: 1200px;
+    height: 400px;
+    
+    border: 2px solid #e0e0e0;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+.child1{
+    position: relative;
+    left: 100px;
+    margin-top: 150px;
+   
+}
+#grow{
+    width: 400px;
+    float: right;
+    margin-right: 150px;
+    margin-top: -120px;
+}
+.parent2{
+    margin-top: 50px;
+    width: 1200px;
+    height: 400px;
+    
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+
+}
+
+#convestation{
+    float: left;
+    margin-left: 50px;
+    width: 500px;
+    margin-top: 30px;
+}
+.child2{
+    
+    left: 150px;
+    position: relative;
+    margin-top: 150px;
+}
+#users{
+    width: 480px;
+    float: right;
+    margin-top: 20px;
+}
+.child3{
+    position: relative;
+    left: 150px;
+    margin-top: 150px;
+    
+}
+
+.parent4{
+    margin-top: 250px;
+    border-radius: 10px;
+    width: 700px;
+    height: 215px;
+    border: 2px solid #e0e0e0; /* Light grey border */
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    transform: translateY(50px);
+    background-color: white;
+    
+    
+    
+}
+#button3{
+    background-color: #fe52c0;
+    border-radius: 20px;
+    height: 60px;
+    width: 300px;
+    color: white;
+    border: none;
+    
+    
+
+}
+
+footer{
+    background-color: #00252e;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+}
+.footer-section1{
+    margin-top: 20px;
+    margin-left: 100px;
+    color: white;
+}
+.footer-section2{
+   text-align: center;
+   color: white;
+   margin-top: -200px;
+    
+}
+.footer-section3{
+    text-align: end;
+    margin-right: 100px;
+}
+#logo_time{
+    background-color: white;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.footer-section3{
+    color: white;
+    margin-top: -140px;
+    margin-right: 400px;
+    
+}
+.footer-section4{
+    margin-left: 1200px;
+    margin-top: -100px;
+}
+.final_text{
+    color: white;
+    margin-left: 1050px;
+    margin-top: 250px;
+}
+#fb{
+    width: 30px;
+    background-color: transparent;
+}
+#tw{
+    width: 30px;
+    background-color: transparent;
+}
+#ig{
+    width: 30px;
+    
+}
+#icon_email{
+    margin-right: 10px;
+}
+#icon_phone{
+    margin-right: 10px;
+}
+#icon_location{
+    margin-right: 10px;
+}

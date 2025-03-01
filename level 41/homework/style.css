@@ -1,0 +1,53 @@
+#img_logo{
+    float: left;
+    width: 60px;
+    align-items: start;
+    
+}
+p{
+    text-align: center;
+}
+#p1{
+background-color: red;
+display: inline;
+}
+
+header{
+    background-color: rgba(16, 197, 230, 0.397);
+    display: inline block;
+}
+h1{
+    text-align: center;
+}
+li{
+    text-align: left;
+}
+#img_html{
+    float: left;
+    width: 350px;
+}
+.html{
+    background-color: orange;
+    display: block;
+}
+#img_css{
+    float: right;
+    width: 350px;
+}
+.css{
+    background-color: violet;
+}
+h3,h2,h4{
+    background-color: rgb(15, 241, 45);
+    display: inline;
+}
+b{
+    background-color: lime;
+}
+#img_js{
+    float: left;
+    width: 350px;
+}
+.js{
+    background-color: khaki;
+}

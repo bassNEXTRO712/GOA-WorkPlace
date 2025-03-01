@@ -1,0 +1,6 @@
+ol{
+    list-style: upper-roman;
+    color: red;
+    background-color: black;
+    display: inline-block;
+}

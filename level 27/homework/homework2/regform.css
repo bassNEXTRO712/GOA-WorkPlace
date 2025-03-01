@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: red;
+}
+input{
+    color: red;
+    align-items: center;
+    width: 500px;
+}
+body{
+    background-color: black;
+}
+button{
+    color: red;
+}

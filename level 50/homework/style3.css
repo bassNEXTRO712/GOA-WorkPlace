@@ -1,0 +1,13 @@
+thead{
+    background-color: rgb(46, 146, 46);
+    color: white;
+}
+tr:nth-child(2){
+    color: green;
+    background-color: darkgrey;
+}
+table{
+    border-collapse: collapse;
+    border-color: aliceblue;
+    
+}

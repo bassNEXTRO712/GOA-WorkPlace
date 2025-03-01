@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: beige;
+}
+img{
+    width: 500px;
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.parent{
+    
+    display: flex;
+    width: 500px;
+    height: 500px;
+    gap: 40px;
+    border-radius: 20px;
+    
+    
+    
+    
+    
+    
+    
+}
+.child{
+    flex-direction: row;
+    margin-top: -50;
+    
+    
+    
+    
+    
+}
+p{
+    margin-top: -15px;
+}
+
+

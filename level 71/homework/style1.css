@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    margin-top: 150px;
+    font-family: "Nunito", serif;
+    background-color: black;
+    color: white;
+}
+
+.parent{
+    width: 900px;
+    height: 300px;
+    
+    display: flex;
+    
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 40px;
+    background-color: #0a0a1a
+    
+    
+}
+img{
+     margin-top: -310px;  
+     width: 55%;
+     height:381px;
+     margin-left: 480px;
+}
+.image_space{
+    
+    filter: brightness(0.4) sepia(1) hue-rotate(260deg) saturate(150%);
+}
+span{
+    color: rgb(143,105,189);
+}
+
+.statistick_space{
+   gap: 60px;
+   display: flex;
+   margin-right: 100px;
+   
+   
+   align-items: center;
+   
+   
+   
+   
+}
+
+

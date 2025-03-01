@@ -1,0 +1,72 @@
+ body{
+    
+ }
+.parent{
+    width: 610px;
+    height: 600px;
+    background-color: green;
+    border: 1px solid lime;
+    display: flex;
+    
+    
+    
+    
+.child{
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    
+    
+} 
+}
+.child1{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid lime;
+    
+    
+    
+}
+.child2{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid lime;
+    
+    
+    
+}
+.child3{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid lime;
+    
+    
+    
+}
+.child4{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid lime;
+    
+    
+    
+}
+
+.child5{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;  
+    left: 510px;
+    top: 500px;
+    
+    
+}

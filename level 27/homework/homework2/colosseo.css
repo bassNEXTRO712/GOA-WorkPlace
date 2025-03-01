@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    text-decoration: double;
+    color: chartreuse;
+    background-color: rgb(26, 26, 26);
+}
+body{
+  background-color: black;
+  background-image: url(/homework/homework2/Colosseum-Ancient-Rome-PNG-Image.png);
+}
+p{
+    color: rgb(10, 243, 26);
+}

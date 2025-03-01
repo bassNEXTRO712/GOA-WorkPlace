@@ -1,0 +1,16 @@
+tr:nth-child(even){
+    background-color: aqua;
+
+}
+th{
+    background-color: aqua;
+    border-collapse: collapse;
+    border-color: brown;
+    
+    
+}
+
+td{
+    border-style: dashed;
+    border-collapse: collapse;
+}

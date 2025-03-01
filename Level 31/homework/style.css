@@ -1,0 +1,39 @@
+h3{
+    display: inline-block;
+    text-align: center;
+    
+    color: lime;
+    background-color: black;
+    
+}
+header{
+    background-color: rgb(21, 167, 167);
+}
+#html{
+    text-align: right;
+    
+    float: right;
+    color: aqua;
+}
+video{
+    width: 1000px;
+}
+p{
+    
+    text-decoration-line: initial;
+    text-decoration: dotted;
+    color: rgb(0, 221, 29);
+    background-color: rgba(0, 0, 0, 0.973);
+    display: inline-block;
+    
+    right: 100%;
+}
+h4{
+    color: red;
+}
+body{
+    background-color: black;
+}
+a{
+    color: aquamarine;
+}

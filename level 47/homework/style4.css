@@ -1,0 +1,11 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+    text-decoration: line-through dotted black;
+}
+a:active{
+    color: black;
+    text-decoration: line-through dotted red;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let score = parseInt(prompt());
+        let user_score;
+        if (score >= 90 && score <= 100){
+            user_score = "A"
+        } else if (score >= 80 && score < 90){
+            user_score = "B"
+        } else if (score >= 70 && score < 80){
+            user_score = "C"
+        } else if (score >= 60 && score < 70){
+            user_score = "D"
+        }   else{
+            user_score = "F"
+        }
+
+        console.log(user_score)
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+th{
+    background-color: gold;
+}
+table{
+    border-collapse: solid;
+    border-color: green;
+}
+td:nth-child(1){
+    background-color: gold;
+}

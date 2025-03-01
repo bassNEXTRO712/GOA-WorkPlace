@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Nunito", serif;
+}
+.parent{
+    width: 1500px;
+    height: 1000px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    display: flex;
+    
+}
+.child{
+    
+    background-color: rgb(96,63,252);
+    width: 350px;
+    height: 500px;
+    align-self: center; 
+    margin-left: 300px;
+    border-radius: 20px;
+   
+    
+    
+   
+}
+.little_child{
+    width: 180px;
+    height: 180px;
+    border: 1px solid;
+    background-color:rgb(80, 52, 223);
+    border-radius: 50%;
+    
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 80px;
+    
+    
+    
+}
+.mini_child{
+    width: 350px;
+    height: 498px;
+    border: 1px solid grey;
+    margin-left: 350px;
+    margin-top: -255px;
+    border-radius: 20px;
+    
+    
+}
+h1{
+    font-size: 70px;
+    color: whitesmoke;
+    margin-top: 8px;
+    text-align: center;
+}
+#p1{
+    text-align: center;
+    color: white;
+    margin-top: -35px;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    color: white;
+    
+}
+p{
+    color: white;
+    margin-top: 100px;
+    font-size: 20px;
+    
+}
+h3{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+#H2{
+    color: rgb(0, 0, 0);
+    margin-right: 200px;
+}
+
+#head1,#head2,#head3,#head4{
+    border: 1px solid;
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 18px;
+    margin-left: 20px;
+    
+}
+#head1{
+    background-color: rgb(254,222,222);
+    color: rgb(255,180,186);
+}
+#head2{
+    background-color: rgb(255,240,211);
+    color: rgb(196, 167, 96);
+}
+#head3{
+    background-color: rgb(202,242,233);
+    color: rgb(95, 202, 186);
+}
+#head4{
+    background-color: rgb(231,233,250);
+    color: rgb(88,120,209);
+}
+h6{
+    font-size: 18px;
+    text-align: center;
+    text-align: start;
+    
+}
+img{
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 90px;
+}
+button{
+    background-color: rgb(48,59,90);
+    color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+#p2{
+    
+    margin-top: -20px;
+    display: inline;
+    font-size: 17px;
+}

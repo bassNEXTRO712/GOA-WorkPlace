@@ -1,0 +1,23 @@
+main {
+    width: 1000px;
+    height: 1000px;
+    border: 5px solid red;
+    background-color: aqua;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+    /* column - სვეტი (ელემენტები განლაგებულია y ღერძზე ერთმანეთის ქვემოთ ანუ ვერტიკალურად) */
+    /* row - რიგი (ელემენტები განლაგებულია x ღერძზე ერთმანეთის გვერდიგვერდ ანუ ჰორიზონტალურად) */
+}
+
+
+div {
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    
+    
+}

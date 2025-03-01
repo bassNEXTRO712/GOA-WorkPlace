@@ -1,0 +1,53 @@
+body,html{
+    background-color: rgb(22, 221, 22);
+    display: flex;
+    width: 95%;
+    justify-content:center ;
+    align-items:center ;
+    padding: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+    
+    
+    
+}
+.parent{
+    width: 400px;
+    height: 500px;
+    border: 1px solid orchid;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+    
+    
+    
+
+   
+.child{
+    padding: 15px;
+    
+    
+    
+}   
+
+    
+}
+input{
+    width: 350px;
+    height: 25px;
+    
+    
+}
+#submit{
+    background-color: rgb(44, 156, 44);
+    color: white;
+}
+#message{
+    width: 350px;
+    height: 100px;
+}
+p{
+    font-size: 10px;
+    text-align: center;
+}

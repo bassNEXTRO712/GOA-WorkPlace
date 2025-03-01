@@ -1,0 +1,74 @@
+/* Background and Centering */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ff416c, #ff4b2b), url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Contact Form Container */
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Form Header */
+h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Form Inputs */
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    font-size: 12px;
+    margin: 10px 0 5px;
+    color: #777;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #ff416c;
+}
+
+/* Submit Button */
+button {
+    margin-top: 20px;
+    padding: 15px;
+    background: linear-gradient(to right, #8e2de2, #ff416c);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+}

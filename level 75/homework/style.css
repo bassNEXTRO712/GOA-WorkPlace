@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+div{
+   
+    width: 150px;
+    height: 150px;
+    
+    
+}
+.parent{
+    width: 1000px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+.item1{
+    background-color: lime;
+    grid-column: 1/10;
+    width: 100%;
+    
+}
+.item2{
+    grid-row: 2/4;
+    height: 100%;
+    background-color:lime;
+}
+.item3{
+  background-color: lime;
+  grid-column: 2/10;
+  width: 100%;
+}
+.item4{
+    background-color:lime;
+    grid-column:2 / 6;
+    width: 100%;
+}
+.item5{
+    background-color:lime;
+    grid-column: -6/10;
+    width: 100%;
+}
+.item6{
+    width: 100%;
+    background-color: lime;
+    grid-column: 1/10;
+    
+}
+.item1:hover{
+    background-color: red;
+    transform: scale(1.2);
+    transition: 0.9s;
+    border-radius: 50px;
+}
+.item2:hover{
+    background-color: blue;
+    transform: scale(1.2);
+    transition: 0.9s;
+    border-radius: 50px;
+}
+.item3:hover{
+    background-color: violet;
+    transform: scale(1.2);
+    transition: 0.9s;
+    border-radius: 50px;
+}
+.item3:hover{
+    background-color: #9370d8;
+    transform: scale(1.2);
+    transition: 0.9s;
+    border-radius: 50px;
+}
+.item4:hover{
+    background-color: deeppink;
+    transform: scale(1.2);
+    transition: 0.9s;
+    border-radius: 50px;
+}
+.item5:hover{
+    background-color: orange;
+    transform: scale(1.2);
+    transition: 0.9s;
+    border-radius: 50px;
+}
+.item6:hover{
+    background-color: darkcyan;
+    transform: scale(1.2);
+    transition: 0.9s;
+    border-radius: 50px;
+    
+}

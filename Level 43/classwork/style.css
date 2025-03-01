@@ -1,0 +1,15 @@
+header{
+    text-align: center;
+    color: purple;
+}
+body{
+    background-color: aqua;
+}
+
+.section1{
+    color: red;
+}
+.section2{
+    color: limegreen;
+}
+

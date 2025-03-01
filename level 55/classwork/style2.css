@@ -1,0 +1,27 @@
+main{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid lime;
+    justify-content: flex-end;
+    
+    gap: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(13, 106, 228);
+}
+div{
+    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+    color: blue;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+}
+img{
+    width: 30px;
+    float: left;
+}

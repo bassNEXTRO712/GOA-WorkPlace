@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color: chartreuse;
+    background-color: rgb(37, 37, 118);
+}
+body{
+    background-color:black;
+}
+h2{
+    color: black;
+    background-color: red;
+}
+h3{
+    color: rgb(63, 230, 2);
+}
+h4{
+    color: rgb(50, 201, 95);
+    background-color: rgb(16, 0, 240);
+}
+b{
+    color: orangered;
+}
+i{
+    color: crimson;
+    background-color: black;
+}
