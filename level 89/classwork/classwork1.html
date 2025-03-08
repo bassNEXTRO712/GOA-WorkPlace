@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function faceControl(name,age){
+            let username = prompt("Enter Your Name");
+            let userage = parseInt(prompt("Enter Your Age"))
+            if (userage >= 18){
+                return "Autorized"
+            }else{
+                return "Sorry Dude"
+            }
+        }
+        let answer = faceControl()
+        console.log(answer)
+
+    </script>
+</body>
+</html>

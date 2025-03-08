@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="calculate()">Click Here</button>
+    <script>
+        const calculate = (num1 = 0,num2 = 0) => num1 + num2
+        
+        let num1 = parseInt(prompt("Enter Num1..."))
+        let num2 = parseInt(prompt("Enter Num2..."))
+        console.log(calculate(num1,num2))
+    </script>
+</body>
+</html>
