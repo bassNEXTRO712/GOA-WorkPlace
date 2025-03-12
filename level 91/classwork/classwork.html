@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // ფუნქციებს ვიყენებთ მოქმედების, ამოხსნის, მათემატიკური მაგალითებისთვის და ასე შემდეგ რადგან არ მოხდეს ტავტოლოგია და კოდი იყოს მაქსიმალურად ადვილი,
+        //კომფორტული
+
+
+        // block scope ები განსაღვრავს ცვლადების ხელმისაწვდომობას და მის ფარგლებს
+        /* არსებობს სამი ტიპის ფარგლები ესენია:
+        ბლოკური,გლობალური და ფუნქციის ფარგლები
+        მაგალითად:  ლოკალური ფარგლები გამოიყურება ასე:
+        */ 
+       function calculateMath(){
+        let easymath = 20
+       }
+       console.log(easymath)
+
+
+       //ფუნქციის ფარგლები გამოიყენება ფუნქციაში და უმოქმედოა მის გარეთ  
+        function calculate(){
+            let mynumber = 10;
+            console.log(mynumber)
+        }
+        calculate()
+        console.log(mynumber)
+        // bolo console log შეაჩერებს კოდს და დააერორებს
+       
+
+
+
+       // გლობალური ფარგლები მოქმედებს ფუნქციის გარეთ და მისი გამოძახება ხდება ფუნქციის გარეთ
+
+       let number = 10;
+
+       function easymath(){
+        console.log(number)
+       }
+
+       easymath()
+
+
+    </script>
+</body>
+</html>
