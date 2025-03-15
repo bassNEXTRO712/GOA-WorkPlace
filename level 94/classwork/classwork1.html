@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1
+        let myFunction = (evenNumbers) =>{
+           let resulth = []
+            for (let number = 2 ; number <= evenNumbers; number += 2){
+                resulth.push(number);
+            }
+                
+            return resulth
+        }
+        
+        console.log(myFunction(200));
+        console.log(myFunction(212));
+        console.log(myFunction(1023));
+        console.log(myFunction(3434));
+        console.log(myFunction(2342));
+
+        //2
+        function lengthstr(nums) {
+    let finalanswer = [];
+    for (let numm = 0; numm < nums.length; numm += 2) {
+        finalanswer.push(nums[numm]);
+    }
+        return finalanswer;
+}
+
+    console.log(lengthstr([0,1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+    //3
+
+
+    function lenghtedstrs(strss) {
+        let result = '';
+            for (let str of strss) {
+                        if (str.length > result.length) {
+                    result = str;
+        }
+    }
+
+
+    return result;
+}
+
+console.log(lenghtedstrs(['Nika', 'Luka', 'George', 'Jonathan']));
+
+
+
+
+
+
+
+function reversednums(){
+    
+    for (let i = 5; i >= 0; i --)
+    console.log(i)
+}
+reversednums()
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //1
+        let names = ['Nika','Luka','Mari','Ani'];
+        names.shift()
+        console.log(names)
+
+        //2
+
+        let drinks = ['Coffee','tea','juice','soda']
+        drinks.shift()
+        drinks.shift()
+        console.log(drinks)
+
+        //3
+
+        function removeFirst(arr){
+           let answer =  arr.shift()
+            return answer
+            
+        }
+
+        
+        //4
+        let users = ['Nika','Luka','George','Mary','Leonardo','Luis','Jonathan'];
+        let edited = users.slice(2,5)
+        console.log(edited)
+
+        
+
+        //5 
+        let words = ['hello','world','javascript','is','fun']
+        let answer = words.slice(2,4)
+        console.log(answer)
+        console.log(words)
+    </script>
+</body>
+</html>

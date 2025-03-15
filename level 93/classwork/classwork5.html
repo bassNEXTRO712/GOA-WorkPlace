@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1
+        let names = ['Nika','Vika','Luka','John','George']
+        let asnwer = names.splice(1,2)
+        console.log(asnwer)
+
+        //2
+// dasassrulebelii
+        let letters = ['A','B','C','D','E'];
+        let editedletters = letters.splice(2,3)
+        console.log(editedletters)
+
+        function modifyArray(arr, index, deleteCount, ...newElements) {
+                    arr.splice(index, deleteCount, ...newElements);
+                            return arr;
+}
+
+
+
+
+    //4 
+    let users = ['Nika','Vika','Luka','John','George'];
+    let editeduserslist = users.join(' ')
+        console.log(editeduserslist)
+        
+    //5
+    
+    let items = ['apple','banana','cherry'];
+    let editeditem = items.join('-')
+    console.log(editeditem)
+
+    //6 
+
+    function arrayToString(arr,separator){
+        let editedfunction = arr.join(separator)
+        return editedfunction
+    }
+
+
+    //7
+        let nums = [10,12,23,234,211,2332,777,222];
+            let numberindex = nums.indexOf(777);
+            console.log(numberindex)
+
+
+    //8
+
+    let colors = ['red','blue','green','blue','yellow'];
+    let findcolors = colors.indexOf('blue')
+    console.log(findcolors)
+
+
+    //9 dasasrulebeli
+
+    function findIndex(arr,value){
+        return arr.index(value);
+    }
+        
+
+
+    </script>
+</body>
+</html>
