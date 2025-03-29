@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+                     // aq funqcia igulisxmeba
+       /* const finalsum = numbers.filter((value) => {
+            return value % 2 == 0
+        })
+        console.log(finalsum)
+        */
+
+        
+        function manualFilter(number){
+            let resulth = [];
+            for (i = 0; i < number.length; i++){
+                if (i % 2 === 0){
+                    resulth.push(number[i])
+                }
+            }
+            return resulth
+        }
+
+        let number = [10, 23, 12, 123, 22];
+    let filteredNumbers = manualFilter(number);
+    console.log(filteredNumbers); 
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function manualMap(arr, changer) {
+    let changedArr = [];
+
+    for (let dot = 0; dot < arr.length; dot++) {
+        changedArr.push(changer(arr[dot]));
+    }
+    return changedArr;
+}
+
+function changer(numbb) {
+    return numbb * 2;
+}
+
+
+let testArray = [1, 2, 3, 4, 5];
+console.log(manualMap(testArray, changer));
+
+    </script>
+</body>
+</html>

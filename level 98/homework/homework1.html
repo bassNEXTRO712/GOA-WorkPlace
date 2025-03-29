@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const numbers = [756,545,4323,2342,23435,45335,23424,45354];
+        numbers.map((value,index) => {
+            console.log(`Value is ${value} and index is ${index}`)
+        })
+
+        // manualMap function
+        function manualMap(value,index){
+            resulth = [];
+            for(i = 0; i < value; i++){
+                resulth.push(value[i] + index.length)
+            }
+            manualMap([1,2,3,4,5,6,7,8,9,10])
+        }
+
+        //manualFilther()
+        function manualFilter(number){
+            let resulth = [];
+            for (i = 0; i < number.length; i++){
+                if (i % 2 === 0){
+                    resulth.push(number[i])
+                }
+            }
+            return resulth
+        }
+
+        let number = [10, 23, 12, 123, 22];
+    let filteredNumbers = manualFilter(number);
+    console.log(filteredNumbers); 
+        
+
+
+    // manualFindIndex()
+    const userAges = [10,12,13,19,21,23,25,29];
+    const finalusers = [];
+    function manualFindIndex(){
+    for (i = 0; i < userAges.length; i++){
+        if (userAges[i] > 18){
+            return i
+        }
+    }
+    return 'none user here'
+    }
+
+    let index = manualFindIndex();
+    console.log(index);  
+
+
+
+
+    function manualForEach(value,index){
+        if (value % 2 === 0){
+            console.log( `Value is ${value} and index is ${index}`)
+        }
+    }
+    const lists = [1,2,3,4,5,6,7,8,9,10];
+    lists.forEach(manualForEach)
+    </script>
+</body>
+</html>
