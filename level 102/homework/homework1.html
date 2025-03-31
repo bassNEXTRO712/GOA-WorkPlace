@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<p>Hello Nika</p>
+<p>Hello Luka</p>
+<p>Hello Ani</p>
+<p>Hello Mari</p>
+<p>Hello Jonathan</p>
+    <script>
+// getElementsByClassName and getElementsByTagName სახელიდან გამომდინარე ისინი იღებენ წვდომას ელემენტებზე კლასის სახელით ან მათი თაგის სახელით
+
+const paragraphs = document.getElementsByTagName("p");
+
+      
+        for (let i = 0; i < paragraphs.length; i++) {
+            // შექმენით "Delete" ღილაკი
+            let btn = document.createElement("button");
+            btn.innerText = "Delete";
+
+           
+            paragraphs[i].appendChild(btn);
+
+           
+            btn.addEventListener("click", function() {
+                paragraphs[i].remove();  
+            });
+        }
+    </script>
+</body>
+</html>

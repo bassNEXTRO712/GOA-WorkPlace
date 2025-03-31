@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 class="text">hello world</h1>
+    <h2 class="text">Hello Friend</h2>
+    <h3 class="text">hello Dude</h3>
+    <h4 class="text">hello Guys</h4>
+    <h5 class="text">hello Friends</h5>
+    
+
+    <p class="paragraph">User 1</p>
+    <p class="paragraph">User 2</p>
+    <p class="paragraph">User 3</p>
+    <p class="paragraph">User 4</p>
+    <p class="paragraph">User 5</p>
+
+
+    <script>
+        // Dom   არის დოკუმენტის ობიექტის მოდელი
+        let answer = document.getElementsByClassName("text")
+        for (i = 0; i < answer.length; i++){
+            console.log(answer[i].textContent)
+        }
+
+         
+
+
+        let source = document.getElementsByTagName("p");
+        for (const p of source){
+            p.textContent = "hello world"
+       }
+    </script>
+</body>
+</html>

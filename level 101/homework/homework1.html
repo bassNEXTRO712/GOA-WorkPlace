@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            background-color: black;
+            color: green;
+            width: 300px;
+            height: 100px;
+            font-size: 50px;
+            border: 3px solid red;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn">Add Item</button>
+    <script>
+        document.getElementById('btn').addEventListener('click', Calculator );
+            
+            
+       
+        function Calculator() {
+            const number1 = parseInt(prompt('Enter Your first number...'));
+            const number2 = parseInt(prompt('Enter Your Secondd Number...'));
+            console.log( number1 + number2)
+        }
+    </script>
+</body>
+</html>
