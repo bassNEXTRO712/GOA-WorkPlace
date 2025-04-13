@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>Time: 0</p>
+
+    <button id="start">Start</button> 
+    <button id="pause">Pause</button>
+    <button id="reset">Reset</button>
+
+    <script>
+        const p = document.querySelector("p");
+        const startBtn = document.getElementById("start");
+        const pauseBtn = document.getElementById("pause");
+        const resetBtn = document.getElementById("reset");
+        
+        let id = null;
+        let second = 0;
+        
+        startBtn.addEventListener("click", () => {
+            id = setInterval(() => {
+                second++;
+                p.textContent = `Time: ${second}`;
+            }, 1000) 
+        });
+        
+        pauseBtn.addEventListener("click", () => {
+            clearInterval(id);
+        });
+        
+        resetBtn.addEventListener("click", () => {
+            second = 0;
+            p.textContent = `Time: ${second}`;
+        });
+    </script>
+</body>
+</html>

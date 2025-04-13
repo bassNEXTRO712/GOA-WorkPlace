@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id = "firstP">Hello Nika</p>
+    <p class="SecondP">Hello Luka</p>
+    <p>Hello Myself</p>
+
+
+    <script>
+      console.dir(document)
+      document.querySelector("#firstP").innerText = "Ciao Fratello";
+      let firstP = document.querySelector("#firstP");
+      firstP.style.color = "red";
+      firstP.style.backgroundColor = 'Black';
+      firstP.style.fontSize = "50px";
+      
+
+
+      let SecondP = document.querySelector(".SecondP");
+        SecondP.style.color = "blue";
+        SecondP.style.backgroundColor = 'Lime';
+        SecondP.style.fontSize = '50px';
+
+
+
+     let p = document.querySelector('p');
+     p.style.color = 'yellow';
+     p.style.backgroundColor = 'Black';
+     p.textContent = 'Vaxxx Toooo';
+     
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let userNumber = parseInt(prompt("Enter a number between 1 and 60:"));
+        count = 0;
+    if (userNumber > 1 && userNumber < 60){
+        let timer = setInterval(() => {
+            count++;
+            console.log(count);
+            if (count === userNumber) {
+                clearInterval(timer);
+                alert("Time's up!");
+            }
+        }, 1000);
+    }
+    console.log(count);
+    </script>
+</body>
+</html>

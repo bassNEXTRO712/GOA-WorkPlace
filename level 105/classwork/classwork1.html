@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>Hello Everyone I M Here Always</p>
+    <p>Hello Everyone Again hahaa</p>
+    <p>Hello Again hahhhhhhhhh</p>
+    <script>
+        console.dir(document)
+        const p = document.body.children[0];
+        console.dir(p)
+
+
+        p.textContent = 'Hello I M nikaa';
+        
+        p.id = 'First-p'
+
+        const p2 = document.body.children[1];
+        console.dir(p2)
+        p2.style.backgroundColor = 'Lime';
+        
+        const p3 = document.body.children[2];
+        console.dir(p3)
+        objectB = document.createElement('b');
+        objectB.textContent = 'OOUUU Nooo Dude hahh';
+        p3.appendChild(objectB)
+
+
+        
+    </script>
+</body>
+</html>
