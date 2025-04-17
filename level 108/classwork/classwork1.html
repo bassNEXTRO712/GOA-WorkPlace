@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1"></p>
+    <script>
+        let time = new Date(2006, 1,16);
+        console.log('Full Date',time)
+        let p = document.getElementById('p1').innerHTML = time;
+        let year = time.getFullYear();
+        let month = time.getMonth() + 1;
+        let day = time.getDate();
+
+        console.log(`I Was Born ${day} and ${month} and ${year}`)
+    </script>
+</body>
+</html>

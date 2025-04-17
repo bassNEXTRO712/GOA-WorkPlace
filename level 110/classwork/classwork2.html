@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p></p>
+    <button id="btn" onclick="addP()">Click Here To Add Item</button>
+    <script>
+        function addP(){
+            let itemP = prompt("Enter a product name:");
+            if(itemP){
+                let createP = document.createElement('p');
+                createP.textContent = itemP;
+            }
+            document.body.appendChild(createP);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+</head>
+
+<body>
+    <main>
+        <button id="rock" onclick="game(0)">Rock</button>
+        <button id="paper" onclick="game(1)">Paper</button>
+        <button id="scissors" onclick="game(2)">Scissors</button>
+    </main>
+
+    <p id="scoreforgame">UserScore: 0 | ComputerScore: 0</p> 
+
+    <script>
+        const rock = 0;
+        const paper = 1;
+        const scissors = 2;
+
+        let userScore = 0;
+        let computerScore = 0;
+
+        function game(userChoice) {
+            let computerChoice = Math.floor(Math.random() * 3);
+
+            
+            if (computerChoice === 0 && userChoice === 0) {
+                alert("It's Draw!");
+            } else if (computerChoice === 0 && userChoice === 1) {
+                alert('You win!');
+                userScore++;
+            } else if (computerChoice === 0 && userChoice === 2) {
+                alert('You lose!');
+                computerScore++;
+            } else if (computerChoice === 1 && userChoice === 0) {
+                alert('You lose!');
+                computerScore++;
+            } else if (computerChoice === 1 && userChoice === 1) {
+                alert("It's Draw!");
+            } else if (computerChoice === 1 && userChoice === 2) {
+                alert('You win!');
+                userScore++;
+            } else if (computerChoice === 2 && userChoice === 0) {
+                alert('You win!');
+                userScore++;
+            } else if (computerChoice === 2 && userChoice === 1) {
+                alert('You lose!');
+                computerScore++;
+            } else if (computerChoice === 2 && userChoice === 2) {
+                alert("It's Draw!");
+            }
+
+            let scoreText = document.createTextNode(`UserScore: ${userScore} | ComputerScore: ${computerScore}`);
+
+            
+            let scoreElement = document.getElementById('scoreforgame');
+            scoreElement.innerHTML = ''; 
+
+          
+            scoreElement.appendChild(scoreText);
+        }
+    </script>
+</body>
+</html>

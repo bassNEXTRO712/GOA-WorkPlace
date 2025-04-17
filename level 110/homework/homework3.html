@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 300px;
+
+        }
+    </style>
+</head>
+<body>
+
+  
+    <main>
+        <button onclick="changeImage(-1)">Going Back</button>
+        <img src="iphone1.jpg" alt="iphone">
+        <button onclick="changeImage(1)">Going Next</button>
+    </main>
+    <script>
+        const imghere = document.querySelector('img');
+        const imageSrcs = [
+            
+            'iphone1.jpg',
+            'iphone2.jpg',
+            'iphone3.jpg'
+        ];
+        let srcIndex = 0;
+        console.log(srcIndex)
+
+        function changeImage(num){
+            if (srcIndex + num >= 0 && srcIndex + num < 3){
+                srcIndex +=num;
+                imghere.src = imageSrcs[srcIndex];
+                console.log(srcIndex);
+            }
+        }
+    </script>
+</body>
+</html>
+</body>
+</html>

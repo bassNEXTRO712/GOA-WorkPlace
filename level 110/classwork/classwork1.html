@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Product Names:</h2>
+    <ul id="productLists">
+    
+    </ul>
+    <button id="btn" onclick="addItem()">Click To Add</button>
+
+
+    <script>
+       function addItem() {
+    let userProduct = prompt("Enter a product name:");
+    if (userProduct) {
+        let finalItem = document.createElement("li");
+        finalItem.innerText = userProduct;
+        finalItem.addEventListener('click', function() {
+            finalItem.remove();
+        });
+
+        document.getElementById("productLists").appendChild(finalItem);
+    }
+}
+
+    </script>
+</body>
+</html>

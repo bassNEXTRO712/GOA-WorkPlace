@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Box Generator</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        #box {
+            width: 200px;
+            height: 200px;
+            background-color: #ff6666;
+            border: 2px solid #333;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background-color: #333;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="box"></div>
+    <button id="change-box">Change Box</button>
+
+    <script>
+        const div = document.getElementById("box");
+        const btn = document.getElementById("change-box");
+
+        const digits = "012345678";
+        const hexSymbols = digits + "abcdef";
+
+        function generateRandomIndex(collection) {
+            return Math.floor(Math.random() * collection.length);
+        }
+
+        function generateRandomHex() {
+            let result = "#";
+            for (let i = 0; i < 6; i++) {
+                const randomIndex = generateRandomIndex(hexSymbols);
+                result += hexSymbols[randomIndex];
+            }
+            return result;
+        }
+
+        function generateRandomSize() {
+            let result = "";
+            for (let i = 0; i < 3; i++) {
+                const randomIndex = generateRandomIndex(digits);
+                result += digits[randomIndex];
+            }
+            return result + "px";
+        }
+
+        btn.addEventListener("click", () => {
+            div.style.backgroundColor = generateRandomHex();
+            div.style.width = generateRandomSize();
+            div.style.height = generateRandomSize();
+            div.style.borderRadius = generateRandomSize();
+        });
+    </script>
+
+</body>
+</html>

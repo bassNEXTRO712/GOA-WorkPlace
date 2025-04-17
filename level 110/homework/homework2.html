@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn" onclick="randomSentence()">Random Sentence</button>
+    <script>
+        let sentence = [
+            "The quick brown fox jumps over the lazy dog.",
+            "A journey of a thousand miles begins with a single step.",
+            "To be or not to be, that is the question.",
+            "All that glitters is not gold.",
+            "In the middle of difficulty lies opportunity."];
+         function randomSentence(){
+            let random = Math.floor(Math.random() * sentence.length);
+         
+
+            document.body.innerHTML += `<p>${sentence[random]}</p>`;
+         }
+    </script>
+</body>
+</html>
