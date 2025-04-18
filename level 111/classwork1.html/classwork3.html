@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form>
+        <input type= 'email' id="email" name="email" placeholder="Enter your email" >
+        <input type= 'password' id="password" name="password" placeholder="Enter your password" >
+        <button id="btn" type="button">Submit</button>
+
+    </form>
+    </main>
+
+    <script>
+        const inputEmail = document.getElementById('email');
+        const inputPassword = document.getElementById('password');
+        const button = document.getElementById('btn');
+    ;
+        button.addEventListener('click', () => {
+            console.log(`Loggin: ${inputEmail.value}`);
+            console.log(`Password: ${inputPassword.value}`);
+            
+        })
+    </script>
+</body>
+</html>

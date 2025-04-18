@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <input type="text" id="text" name="text" placeholder="Enter your text">
+        <button type="button" id="btn">Submit</button>
+    </main>
+    <script>
+        textInput = document.getElementById('text');
+       const submitButton =  document.getElementById('btn');
+        submitButton.addEventListener('click', () => {
+        const  createElement = document.createElement('li');
+        createElement.innerText = textInput.value;
+
+        document.body.appendChild(createElement);
+       })
+    </script>
+</body>
+</html>
