@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form>
+            <input type="username" id="username" name="username" placeholder="Enter your Username Here">
+            <input type="email" id="email" name="email" placeholder="Enter your Email Here">
+            <input type="password" id="pass" name="password" placeholder="Enter your Password Here">
+            <button id="btn" type="button" onclick="validationSystem()">Submit</button>
+        </form>
+    </main>
+
+    <script>
+
+
+         const users = []
+        function validationSystem(){
+            const nameInput = document.getElementById('username');
+            const emailInput = document.getElementById('email');
+            const passInput = document.getElementById('pass');
+
+
+            if (nameInput.value === '' || emailInput.value === '' || passInput.value === ''){
+                alert('Fill Input Please!!!!')
+            }else{
+
+            }
+            console.log(nameInput.value, emailInput.value, passInput.value);
+
+
+           
+
+            const finalUserData = {
+                username : nameInput.value,
+                email : emailInput.value,
+                password : passInput.value
+            }
+
+            users.push(finalUserData);
+            console.log(users);
+
+            nameInput.value = '';
+            emailInput.value = '';
+            passInput.value = '';
+
+        }
+    </script>
+</body>
+</html>

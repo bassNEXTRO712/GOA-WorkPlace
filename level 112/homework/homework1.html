@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <main>
+
+        <form>
+            <input type="email" id ="email" name = 'email' placeholder="Enter your Email Here">
+
+            <input type="password" id ="pass" name = 'password' placeholder="Enter your Password Here">
+
+            <button type="button" onclick="validData()">Submit</button>
+        </form>
+    </main>
+    <script>
+        const input1 = document.getElementById('email');
+        const input2 = document.getElementById('pass');
+
+        function validData(){
+            if (input1.value  === '' || input2.value === ''){
+                alert('Fill Input Please!!!!')
+            }else{
+                alert('Valid Input')
+            }
+            console.log(input1.value, input2.value)
+
+            input1.value = '';
+            input2.value = '';
+        }
+    </script>
+</body>
+</html>
