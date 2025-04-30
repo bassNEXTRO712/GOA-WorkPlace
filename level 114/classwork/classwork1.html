@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        users = ['John', 'Jane', 'Doe', 'Smith'];
+
+        const [firstUser, secondUser,ThirdUser] = users;
+
+        console.log( firstUser );
+        console.log( secondUser );
+        console.log( ThirdUser );
+
+
+
+
+        const oneperson = {
+            name: 'Nika',
+            age: 19,
+            city: 'Poti'
+        }
+
+        const {name : username, age : userage, city: usercity} = oneperson;
+        console.log( username );
+        console.log( userage );
+        console.log( usercity );
+    </script>
+</body>
+</html>

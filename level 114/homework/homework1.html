@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guess a Number</title>
+</head>
+<body>
+  <form>
+    <input type="number" id="num" placeholder="Enter a number" />
+    <button id="btn" type="button">Submit</button>
+  </form>
+
+  <script>
+    const btn = document.getElementById('btn');
+    const numInput = document.getElementById('num');    
+    const randomNumber = Math.floor(Math.random() * 20) + 1;
+
+    btn.addEventListener('click', () => {
+      const guess = parseInt(numInput.value, 10);
+
+      if (isNaN(guess)) {
+        alert('Please enter a valid number!');
+      }
+      else if (guess > 20) {
+        alert('Number is too high — enter a number from 1 to 20');
+      }
+      else if (guess < 1) {
+        alert('Number is too low — enter a number from 1 to 20');
+      }
+      else if (guess === randomNumber) {
+        alert('You are Correct');
+      }
+      else {
+        alert('Wrong guess — try again.');
+      }
+
+      // prepare for the next round
+      numInput.value = '';
+      numInput.focus();
+    });
+  </script>
+</body>
+</html>

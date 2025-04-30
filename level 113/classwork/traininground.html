@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <form id="formation">
+      <input type="email" id="email" placeholder="Enter your email" required>
+      <input type="password" minlength="5" maxlength="20" id="password" placeholder="Enter your password" required>
+      <input type="password" minlength="5" maxlength="20" id="confirmPassword" placeholder="Confirm your password" required>
+      <button id="submit" type="button">Submit</button>
+    </form>
+  </main>
+
+  <script>
+    const registeredUsers = [];
+
+    function testPassword() {
+      const hasLetter      = /[a-zA-Z]/.test(password1.value);
+      const hasNumber      = /\d/.test(password1.value);
+      const hasSpecialChar = /[!@#$%^&*(),.?":{}|<>]/.test(password1.value);
+      return hasLetter && hasNumber && hasSpecialChar;
+    }
+
+    const password1 = document.getElementById("password");
+    const password2  = document.getElementById("confirmPassword");
+    const buttontime  = document.getElementById('submit');
+    const form  = document.getElementById('formation');
+
+    const alphabet  = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const numbers    = "0123456789";
+    const specialCharacters = "!@#$%^&*()_+[]{}|;:,.<>?";
+
+    buttontime.addEventListener('click', () => {
+      if (password1.value != password2.value) {
+        alert("Apapapapaaa!!");
+        return;
+      }
+
+      if (!testPassword(password1)) {
+        alert("Password must contain at least one letter, one number, and one special character.");
+        return;
+      }
+
+      const user = { 
+        email : email.value,
+        password : password1.value,
+    };
+      registeredUsers.push(user);
+
+      form.reset();
+      console.log(registeredUsers);
+    });
+  </script>
+</body>
+</html>
