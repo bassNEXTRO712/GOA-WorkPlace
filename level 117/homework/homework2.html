@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class dog{
+            constructor(){
+                this.name = 'Rex';
+                this.age = 5;
+                this.energyLevel = 100;
+            }
+           
+        
+        run() {
+
+            this.energyLevel - 10;
+            console.log(`${this.name} is running and Has ${this.energyLevel} energy left`);
+        }
+        rest(){
+            this.energyLevel + 5;
+            console.log(`${this.name} is resting and has ${this.energyLevel} energy left At Now!!!`);
+        }
+        showStatus(){
+            console.log(`Name: ${this.name}, Age: ${this.age}, Energy Level: ${this.energyLevel}`);
+        }
+    }
+
+    const newDog = new dog();
+    newDog.run();
+    newDog.rest();
+    newDog.showStatus();
+    </script>
+</body>
+</html>

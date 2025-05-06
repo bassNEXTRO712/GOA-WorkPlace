@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      class User {
+  constructor(email, password, username) {
+    this.email = email; 
+    this.password = password;
+    this.username = username;
+  }
+
+
+  introduce() {
+    console.log(`My email is ${this.email} and my username is ${this.username}`);
+  }
+}
+
+
+
+const user1 = new User('user1@example.com', 'pass123', 'userOne');
+const user2 = new User('user2@example.com', 'pass456', 'userTwo');
+const user3 = new User('user3@example.com', 'pass789', 'userThree');
+
+
+console.log(user1);
+console.log(user2);
+console.log(user3);
+
+user1.introduce();
+user2.introduce();
+user3.introduce();
+    </script>
+</body>
+</html>

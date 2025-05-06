@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1) შექმენით კლასი სახელად Phone, ამ კლასის კონსტრუქტორს გადაეცით 3 არგუმენტი, name, color storage,
+        //  ტელეფონის სახელი ფერი და მეხსიერების მოცულობა, შემდეგ გამოიყენეთ ეს კლასი რომ შექმნათ 3 სხვადასხვა
+        //  ტელეფონი (მინიშნება არ დაგავიწყდეთ new გამოყენება)
+
+
+        class Phone {
+            constructor(name,color,storage){
+                this.name = name;
+                this.color = color;
+                this.storage = storage;
+            }
+        }
+
+        const newPhone = new Phone ('Black Shark', 'Green', '256GB');
+        const newPhone1 = new Phone ('Iphone', 'Black', '128GB');
+        const newPhone2 = new Phone ('Samsung', 'White', '512GB');
+        console.log(newPhone,newPhone1,newPhone2);
+    </script>
+</body>
+</html>
