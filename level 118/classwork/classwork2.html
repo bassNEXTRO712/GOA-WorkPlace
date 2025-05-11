@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        
+        <select>
+            <option value="'electronics'">All</option>
+            <option value="jewelery">Electronics</option>
+            <option value=  " men\'s clothin">Jewelery</option>  
+
+        </select>
+        
+    </main>
+    <script>
+        const select = document.querySelector('select')
+        const category = [
+            'electronics',
+            'jewelery',
+            'men\'s clothing',
+            'women\'s clothing'
+        ]
+        let finalsum = [];
+
+
+        
+        const main = document.querySelector('main')
+        function conectWebAcces(webpage){
+            for (let i in webpage ){
+                main.innerHTML += `
+                <section>
+                    <h2>${webpage[i].title}</h2>
+                    <p>${webpage[i].description}</p>
+                    <img src="${webpage[i].image}" alt="${webpage[i].title}">
+                    <hr>
+                    `
+                    
+            }
+        }
+
+        fetch('https://fakestoreapi.com/products/')
+        .then (response => response.json())
+        .then (data => {
+            conectWebAcces(data)
+        })
+
+        select.addEventListener('change', (e) => {
+            const category = e.target.value
+            
+            const finalarr = finalsum.filther((item) => item.category === category)
+            conectWebAcces(finalarr)
+                
+            })
+       
+
+    </script>
+</body>
+</html>
