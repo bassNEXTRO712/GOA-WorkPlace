@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const conectorData = async (url) => {
+            try {
+            const res = await fetch(url);
+            const data = await res.json();
+            console.log(data);
+
+            }catch(err){
+                console.log('There Was Eror', err)
+            }
+        }
+         conectorData('https://jsonplaceholder.typicode.com/posts')
+    </script>
+</body>
+</html>
