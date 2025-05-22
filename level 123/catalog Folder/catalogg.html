@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catalog</title>
+  <link rel="stylesheet" href="./catalog.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header1">
+      <p id="ptskvaradze">Luka Tskvaradze</p>
+      <div class="icons_space">
+        <img id="icon1" src="./instagram.png" alt="Instagram">
+        <img id="icon2" src="./facebook.png" alt="Facebook">
+        <img id="icon3" src="./youtube.png" alt="YouTube">
+        <img id="icon4" src="./github.png" alt="GitHub">
+      </div>
+    </div>
+
+    <div class="header2picture">
+      <a href="index.html"><img id="main_logo" src="./download.png" alt="logo"></a>
+    </div>
+
+    <div class="text_location">
+      <nav>
+        <h4>
+          <a href="http://127.0.0.1:5500/index.html">Home</a>
+          <a href="catalog.html">Catalog</a>
+          <a href="http://127.0.0.1:5500/about%20Us%20Folder/aboutus.html">About</a>
+          <a href="contact.html">Contact</a>
+          <img id="icon_img1" src="./user (1).png" alt="user" />
+          <img id="icon_img2" src="./heart (1).png" alt="wishlist" />
+          <img id="icon_img3" src="./grocery-store (1).png" alt="cart" />
+        </h4>
+      </nav>
+    </div>
+
+    <div class="third_header">
+      <h2>Catalog</h2>
+    </div>
+  </header>
+
+  <select id="selection_section">
+    <option value="default">Sort By</option>
+    <option value="price-asc">Price: Low to High</option>
+    <option value="price-desc">Price: High to Low</option>
+    <option value="title-asc">Title: A to Z</option>
+    <option value="title-desc">Title: Z to A</option>
+  </select>
+
+  <select id="selection_section2">
+    <option value="default">Defaulth</option>
+    <option value="Jewerly">Jewerly</option>
+    <option value="Tecnics">Tecnics</option>
+    <option value="Man Section">Man Section</option>
+    <option value="Woman Sectio">Woman Section</option>
+  </select>
+
+  <main>
+    <div id="container"></div>
+
+    <div id="squadre">
+      <h3>Wishlist</h3>
+      <ul id="cartItemsList"></ul>
+      <p id="totalPrice">Total Price: $0</p>
+      <button id="cart_btn1">View My Cart</button>
+      <button id="cart_btn2">Go To CheckOut</button>
+    </div>
+
+    <button id="btn1">1</button>
+    <button id="btn2">2</button>
+  </main>
+
+  <footer>
+    <p>Get our latest news and special sales<br>You may unsubscribe at any moment.</p>
+    <hr>
+    <strong>LULINISTORE | © 2023 By Luka Tskhvaradze</strong>
+  </footer>
+
+  <script src="catalogg.js"></script>
+</body>
+</html>
