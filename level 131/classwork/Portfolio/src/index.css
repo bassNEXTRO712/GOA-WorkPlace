@@ -1,0 +1,17 @@
+h1{
+  color: red;
+  margin-top: 300px;
+
+}
+body{
+  background-color: black;
+  display: flex;
+  
+}
+p{
+  color: lime;
+}
+li{
+  color: lime;
+}
+
