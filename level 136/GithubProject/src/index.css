@@ -1,0 +1,223 @@
+
+
+#mainImg{
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: -100px;
+}
+
+body{
+    
+    justify-content: center;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  
+ 
+  
+  height: 100vh;
+  padding: 40px;
+  background-color: #141c2f;
+    
+}
+.searchdiv{
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+   
+    
+    
+    
+    
+
+}
+
+.parentdiv{
+  width: 100%;
+  max-width: 990px;
+  height: 450px;
+  background-color: #1f2a48;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 200px;
+  display: flex;
+
+  
+    
+}
+button{
+     background-color: #0079ff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+    
+   
+    
+    
+}
+input{
+    width: 900px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #1f2a48;
+    font-size: 25px;
+    margin-top: 5px;
+    border: none;
+    color: white;
+    
+    
+    
+}
+input:focus{
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+h2{
+    margin-left: 250px;
+    margin-top: -20px;
+}
+
+.informationdiv{
+    display: flex;
+}
+p{
+    color: white;
+}
+h2{
+    color: white;
+}
+
+.centerInfo{
+    width: 600px;
+    height: 90px;
+    border: none;
+    margin-left: 250px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 21px;
+    border-radius: 5px;
+    background-color: #141c2f;
+}
+#userBio{
+    margin-left: 250px
+}
+
+#userGithubName{
+    margin-left: 250px;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  background-color: #1e2a47;
+  border-radius: 15px;
+  padding: 10px 15px;
+  gap: 10px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: -70px;
+
+
+  
+}
+form:focus{
+    border: none;
+    box-shadow: none;
+}
+h1{
+    margin-top: 400px;
+    margin-right: 890px;
+    
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+#createdTime{
+    margin-left: 700px;
+    margin-top: 10px;
+    display: inline;
+}
+
+img{
+    width: 20px;
+    margin-right: 5px;
+    
+}
+
+.srcs{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 270px;
+}
+
+
+
+.light-mode {
+  background-color: #f6f8ff;
+  color: #2b3442;
+   
+}
+.light-mode .parentdiv{
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.light-mode p,
+.light-mode h1,
+.light-mode h2,
+.light-mode a {
+  color: #2b3442;
+}
+.light-mode .centerInfo{
+    color: white;
+}
+
+
+.dark-mode {
+  background-color: #141c2f;
+  color: white;
+}
+.dark-mode form,
+.dark-mode input{
+    background-color: #1f2a48; ;
+}
+
+.dark-mode p,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode a {
+
+  color: white;
+}
+.light-mode .parentdiv,
+.light-mode form,input{
+    background-color: white;
+}
+.colorButton{
+   margin-bottom: 80px;
+   margin-left: 900px;
+}
+
+.light-mode .centerInfo{
+    background-color: aquamarine;
+}
+
