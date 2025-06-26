@@ -1,0 +1,86 @@
+.parentdiv{
+  width: 1200px;
+  height: 800px;
+  
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  
+  
+  
+}
+textarea{
+  width: 1000px;
+  height: 200px;
+  margin-left: 100px;
+ resize: none;
+  
+  
+}
+.child{
+  width: 1000px;
+  height: 150px;
+  
+  margin-top: 100px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.minichild1,.minichild2,.minichild3{
+  width: 300px;
+  height: 150px;
+
+  border-radius: 10px;
+  
+  
+  
+}
+h1{
+  font-size: 50px;
+}
+.minichild1{
+  background-color: #d3a1fa;
+  font-size: 20px;
+}
+.minichild2{
+background-color: #ff9f00;
+}
+.minichild3{
+  background-color: #ff8159;
+}
+form{
+  margin-right: 740px;
+  margin-top: 10px;
+}
+
+
+.light-mode {
+  background-color: #ffffff;
+  color: #111;
+}
+
+
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #eee;
+}
+.dark-mode textarea{
+  background-color: #1e1e1e;
+  color: white;
+}
+
+
+p{
+  font-size: 30px;
+}
+input,label{
+  margin-left: 20px;
+}
