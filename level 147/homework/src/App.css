@@ -1,0 +1,26 @@
+.parent{
+  width: 500px;
+  height: 200px;
+  border: 1px solid lime;
+  text-align: center;
+  
+  
+
+}
+button{
+  margin-top: 70px;
+  background-color: darkcyan;
+  color: white;
+  border-radius: 5px;
+}
+.child{
+  justify-content: space-evenly;
+  display: flex;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+ 
+}
