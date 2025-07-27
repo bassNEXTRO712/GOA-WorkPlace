@@ -1,0 +1,1 @@
+//gakvetili daetmo teoriul masalas
