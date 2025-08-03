@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2021,
+    "color": "White",
+    "price": 25000,
+    "mileage": 15000,
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "id": 2,
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2020,
+    "color": "Blue",
+    "price": 22000,
+    "mileage": 18000,
+    "transmission": "Manual",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "id": 3,
+    "make": "Ford",
+    "model": "Mustang",
+    "year": 2022,
+    "color": "Red",
+    "price": 35000,
+    "mileage": 8000,
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "id": 4,
+    "make": "Tesla",
+    "model": "Model 3",
+    "year": 2023,
+    "color": "Black",
+    "price": 40000,
+    "mileage": 5000,
+    "transmission": "Automatic",
+    "fuel_type": "Electric"
+  },
+  {
+    "id": 5,
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "year": 2019,
+    "color": "Gray",
+    "price": 18000,
+    "mileage": 30000,
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "id": 6,
+    "make": "BMW",
+    "model": "3 Series",
+    "year": 2021,
+    "color": "Silver",
+    "price": 42000,
+    "mileage": 12000,
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "id": 7,
+    "make": "Audi",
+    "model": "A4",
+    "year": 2022,
+    "color": "White",
+    "price": 43000,
+    "mileage": 10000,
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "id": 8,
+    "make": "Hyundai",
+    "model": "Elantra",
+    "year": 2020,
+    "color": "Blue",
+    "price": 19500,
+    "mileage": 20000,
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "id": 9,
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2018,
+    "color": "Black",
+    "price": 16000,
+    "mileage": 40000,
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "id": 10,
+    "make": "Kia",
+    "model": "Sportage",
+    "year": 2021,
+    "color": "Red",
+    "price": 27000,
+    "mileage": 15000,
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline"
+  }
+]
