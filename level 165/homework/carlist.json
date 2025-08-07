@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2021,
+    "color": "White",
+    "engine": "1.8L I4",
+    "transmission": "CVT",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "id": 2,
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2020,
+    "color": "Black",
+    "engine": "2.0L I4",
+    "transmission": "Manual",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "id": 3,
+    "make": "Ford",
+    "model": "Mustang",
+    "year": 2023,
+    "color": "Red",
+    "engine": "5.0L V8",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "id": 4,
+    "make": "Tesla",
+    "model": "Model 3",
+    "year": 2022,
+    "color": "Silver",
+    "engine": "Electric",
+    "transmission": "Single-speed",
+    "fuel_type": "Electric"
+  },
+  {
+    "id": 5,
+    "make": "BMW",
+    "model": "X5",
+    "year": 2021,
+    "color": "Blue",
+    "engine": "3.0L I6",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "id": 6,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2020,
+    "color": "Gray",
+    "engine": "2.0L Turbo I4",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "id": 7,
+    "make": "Hyundai",
+    "model": "Elantra",
+    "year": 2019,
+    "color": "Green",
+    "engine": "2.0L I4",
+    "transmission": "CVT",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "id": 8,
+    "make": "Chevrolet",
+    "model": "Tahoe",
+    "year": 2022,
+    "color": "Black",
+    "engine": "5.3L V8",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "id": 9,
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2021,
+    "color": "White",
+    "engine": "2.5L I4",
+    "transmission": "CVT",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "id": 10,
+    "make": "Kia",
+    "model": "Sportage",
+    "year": 2023,
+    "color": "Orange",
+    "engine": "1.6L Turbo I4",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline"
+  }
+]
