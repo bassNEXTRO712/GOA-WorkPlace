@@ -1,0 +1,52 @@
+[
+  {
+    "fullName": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "password": "password123"
+  },
+  {
+    "fullName": "Bob Smith",
+    "email": "bob.smith@example.com",
+    "password": "qwerty456"
+  },
+  {
+    "fullName": "Charlie Brown",
+    "email": "charlie.brown@example.com",
+    "password": "secure789"
+  },
+  {
+    "fullName": "Diana Prince",
+    "email": "diana.prince@example.com",
+    "password": "wonderwoman"
+  },
+  {
+    "fullName": "Ethan Hunt",
+    "email": "ethan.hunt@example.com",
+    "password": "mission123"
+  },
+  {
+    "fullName": "Fiona Davis",
+    "email": "fiona.davis@example.com",
+    "password": "helloWorld1"
+  },
+  {
+    "fullName": "George Miller",
+    "email": "george.miller@example.com",
+    "password": "testPass2"
+  },
+  {
+    "fullName": "Hannah Wilson",
+    "email": "hannah.wilson@example.com",
+    "password": "pass321"
+  },
+  {
+    "fullName": "Ian Thomas",
+    "email": "ian.thomas@example.com",
+    "password": "letmein99"
+  },
+  {
+    "fullName": "Julia Roberts",
+    "email": "julia.roberts@example.com",
+    "password": "mypassword"
+  }
+]
